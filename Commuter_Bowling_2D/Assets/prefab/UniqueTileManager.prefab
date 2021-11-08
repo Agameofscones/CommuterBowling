@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &185707532210481799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 185707532210481797}
+  - component: {fileID: 185707532210481798}
+  m_Layer: 0
+  m_Name: UniqueTileManager
+  m_TagString: UTM
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &185707532210481797
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185707532210481799}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &185707532210481798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185707532210481799}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 878a8449d6c687044a8c29be2334a28b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  map: {fileID: 0}
+  uniqueTiles:
+  - {fileID: 11400000, guid: dc897be527730c64f83579d87affd646, type: 2}
+  - {fileID: 11400000, guid: 9fda50424d401e8488d22e07fd912199, type: 2}
+  - {fileID: 11400000, guid: 201939b467b7af04584d7e697f30b8f6, type: 2}
+  - {fileID: 11400000, guid: ebaff4425b2e04e4297d04aff59b48a9, type: 2}
+  - {fileID: 11400000, guid: 1ba1d0b30e5988849b6457bb99e34964, type: 2}
+  - {fileID: 11400000, guid: 639053b4c96a7cf47b9b5291fbc6aab6, type: 2}
+  - {fileID: 11400000, guid: 5273bfc3bd4c60746876d16447ae707c, type: 2}
+  - {fileID: 11400000, guid: d86894c39c7236640ba569f92c04b6bb, type: 2}
+  - {fileID: 11400000, guid: 3b64fb17eaf38164fa7c1f32db8ac92a, type: 2}
+  - {fileID: 11400000, guid: fba860bf15791c044883c459b4a42b28, type: 2}
+  bowlingBall: {fileID: 0}

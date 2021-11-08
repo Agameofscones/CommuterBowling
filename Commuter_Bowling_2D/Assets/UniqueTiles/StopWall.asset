@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0f0cfd6381bca9543992417d4f356120, type: 3}
+  m_Name: StopWall
+  m_EditorClassIdentifier: 
+  tileArray:
+  - {fileID: 11400000, guid: 1f3379d5682a4ff479ed733a931cf319, type: 2}
+  additionalMoves: 0
+  speedBall: 0
+  slowBall: 0
+  redirectsBall: 0
+  invertsBall: 1
+  deadStopsBall: 1
+  angleDirection: {x: 0, y: 0}
